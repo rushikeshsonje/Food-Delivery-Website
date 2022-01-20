@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../staticfiles/css/fooddelivery.css">
+    <link rel="stylesheet" href="../staticfiles/css/phonemode.css">
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link rel="stylesheet" media="screen and (max-width: 1244px)" href="../staticfiles/css/phonemode.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <!-- <div id="logo">
+            <img src="logo.png" alt="Myonline.com"> 
+        </div> -->
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services-container">Services</a></li>
+            <li><a href="#client-section">Clients</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="navbar2">
+        <div class="home-name">
+            <a href="#">Home</a>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">
+                <i class="fas fa-bars fa-1x"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#services-container">Services</a>
+                <a href="#client-section">Clients</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+        </div>
+    </div>
+
+    <section id="home">
+        <div class="home-center">
+            <h1 class="h-primary center">Welcome to MyOnlineMeal</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus molestias gdfsds accusantium! Sint nobis deleniti.</p>
+            <button class="btn">Order Now</button>
+        </div>
+    </section>
+
+    <section id="services-container">
+        <div class="services-heading">
+            <h1 class="center">Our Services</h1>
+        </div>
+        <div id="services" class="center">
+            <div class="box center-colomn">
+                <img src="../staticfiles/img/img1.jpg" alt="">
+                <h2 class="h-secondary center">Food catering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus mollitia labore fugiat nobis dolorum rerum earum! Magnam accusantium sint obcaecati quosducimuvoluptas, dicta iure quaerat beata libero earum, ex, voluptatibus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, autem rerum.</p>
+            </div>
+            <div class="box center-colomn">
+                <img src="../staticfiles/img/img2.jpg" alt="">
+                <h2 class="h-secondary center">Bulk Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus mollitia labore fugiat nobis dolorum rerum earum! Magnam accusantium sint obcaecati quos ducimus voluptas, dicta iure quaerat beata libero earum, ex, voluptatibus error. Lorem ipsum dolor sit amet consectetur adipisicin elit. Excepturi, autem rerum.</p>
+            </div>
+            <div class="box center-colomn">
+                <img src="../staticfiles/img/img3.png" alt="">
+                <h2 class="h-secondary center">Food Ordering</h2>
+                <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus mollitia labore fugiat nobis dolorum rerum earum! Magnam accusantium sint obcaecati quos ducimus voluptas, dicta iure quaerat beata libero earum, ex, voluptatibus error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, autem rerum.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="client-section">
+        <h1 class="client-heading center">Our Clients</h1>
+        <div id="client" class="center-row">
+            <div class="client-item center">
+                <img src="../staticfiles/img/logo2.png" alt="Our Clients.">
+            </div>
+            <div class="client-item center">
+                <img src="../staticfiles/img/logo1.png" alt="Our Clients.">
+            </div>
+            <div class="client-item center">
+                <img src="../staticfiles/img/logo3.png" alt="Our Clients.">
+            </div>
+            <div class="client-item center">
+                <img src="../staticfiles/img/logo4.png" alt="Our Clients.">
+            </div>
+        </div>
+    </section>
+   
+
+    <section class="center-row" id="contact">
+        <div class="contact-us-heading">
+            <h1 class="center">Contact Us</h1>
+        </div>
+        <div id="contact-box">
+            <form action="/" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                    <label for="name">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your Email">
+                    <label for="name">Phone:</label>
+                    <input type="phone" name="phone" id="phone" placeholder="Enter Your Phone Number">
+                    <div>
+                        <button class="btn" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer class="center"> 
+        <div class="footer-center">
+            copyright &copy; All rights reserved!
+        </div>
+    </footer>
+</body>
+
+</html>

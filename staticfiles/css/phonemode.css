@@ -1,0 +1,292 @@
+@media(max-width: 1050px) {
+    #services-container {
+        height: 105rem;
+    }
+
+    #services {
+        height: 85rem;
+    }
+
+    #services .box {
+        width: 80%;
+    }
+
+    #services .box img {
+        width: 25%;
+    }
+
+    #home .home-center button {
+        /* text-align: center; */
+        margin-left: 30%;
+    }
+}
+
+@media(max-width: 820px) {
+    #logo {
+        display: none;
+    }
+
+    .client-item {
+        width: 22%;
+        height: 13rem;
+    }
+
+    #contact-box form {
+        width: 70%;
+    }
+
+    #services .box img {
+        width: 30%;
+    }
+
+    #home .home-center button {
+        /* text-align: center; */
+        margin-left: 28%;
+    }
+}
+
+@media(max-width: 740px) {
+    #navbar ul li a {
+        font-size: 1.5rem;
+    }
+
+    .client-item {
+        width: 22%;
+        height: 12rem;
+    }
+
+    #services .box img {
+        width: 40%;
+    }
+}
+
+@media(max-width: 670px) {
+    #navbar {
+        display: none;
+    }
+
+    .navbar2 {
+        display: block;
+    }
+
+    #contact-box form {
+        width: 60%;
+    }
+    #home .home-center button {
+        margin-left: 23%;
+    }
+}
+
+@media(max-width: 600px) {
+    #services-container {
+        height: 110rem;
+    }
+
+    #services {
+        height: 90rem;
+    }
+
+    .client-item {
+        width: 37%;
+        height: 12rem;
+    }
+
+    #contact-box form {
+        width: 70%;
+    }
+
+    .contact-us-heading {
+        font-size: 2rem;
+    }
+
+    #home {
+        align-items: center;
+    }
+
+    #home .home-center button {
+        margin-left: 20%;
+    }
+
+    #home h1 {
+        margin-top: 7rem;
+    }
+
+    #home p {
+        width: 100%;
+    }
+}
+
+@media(max-width: 465px) {
+    #home p {
+        font-size: 1.4rem;
+        margin-left: -3%;
+    }
+
+    #home .home-center button {
+        margin-left: 15%;
+        font-size: 1rem;
+    }
+
+    #services-container {
+        height: 130rem;
+    }
+
+    #services {
+        height: 110rem;
+    }
+
+    #services .box img {
+        width: 50%;
+    }
+
+    .contact-us-heading {
+        font-size: 1.8rem;
+    }
+
+    #contact-box form {
+        width: 90%;
+    }
+}
+
+@media(max-width: 360px) {
+    .navbar2 .home-name {
+        margin-left: 35%;
+    }
+
+    .dropdown .dropbtn {
+        margin-right: 1rem;
+    }
+
+    .dropdown-content {
+        min-width: 8rem;
+    }
+
+    .dropdown-content a {
+        float: none;
+        font-size: 1rem;
+    }
+
+    #home h1 {
+        margin-top: -1rem;
+        /* font-size: 1rem; */
+        font-size: 2rem;
+    }
+
+    #home p {
+        font-size: 1rem;
+    }
+
+    #home .home-center button {
+        margin-left: 15%;
+        font-size: .7rem;
+    }
+
+    #services .box img {
+        width: 80%;
+        height: 7rem;
+    }
+
+    #services {
+        height: 113rem;
+    }
+
+    #contact-box input,
+    #contact-box textarea {
+        font-size: 0.9rem;
+    }
+
+    .btn {
+        font-size: 1.1rem;
+    }
+
+    #services .box {
+        /* border: 3px solid blue; */
+        width: 100%;
+    }
+
+    .client-item {
+        height: 10rem;
+    }
+}
+
+@media(max-width: 300px) {
+    .navbar2 .home-name a {
+        font-size: 1.4rem;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 1rem;
+    }
+
+    #home {
+        height: 38rem;
+    }
+
+    .services-heading {
+        font-size: 1.5rem;
+        margin-top: 3.5rem;
+    }
+
+    .client-item {
+        width: 45%;
+        height: 9rem;
+    }
+
+    .client-heading {
+        font-size: 2.5rem;
+    }
+
+    .contact-us-heading {
+        font-size: 1.5rem;
+    }
+
+    #contact-box input,
+    #contact-box textarea {
+        font-size: 0.7rem;
+    }
+
+    #contact-box label {
+        font-size: 1rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+}
+
+@media(max-width: 265px) {
+    .navbar2 .home-name {
+        margin-left: 33%;
+    }
+
+    #home h1 {
+        font-size: 1.7rem;
+    }
+
+    .services-heading {
+        font-size: 1rem;
+    }
+
+    .h-secondary {
+        font-size: 1.3rem;
+        padding: 1.1rem;
+    }
+
+    #services .box p {
+        font-size: 0.8rem;
+    }
+
+    .client-heading {
+        font-size: 1.9rem;
+    }
+
+    .client-item {
+        width: 48%;
+    }
+
+    .contact-us-heading {
+        font-size: 1.1rem;
+    }
+
+}
